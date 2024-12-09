@@ -1,0 +1,80 @@
+Show
+	BaseType "Gold"
+
+Show
+	Class Currency
+	SetFontSize 50
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 0 121 255
+
+Show
+	BaseType "Rune"
+	SetFontSize 50
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 111 255 111
+
+
+Show # All rares
+	Rarity Rare
+	SetFontSize 45
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 8 300
+	PlayEffect Grey
+	MinimapIcon 2 Grey Diamond
+
+Show # All uniques
+	Rarity Unique
+	SetFontSize 45
+	SetTextColor 175 96 37 255
+	SetBorderColor 175 96 37 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 300
+	PlayEffect Brown
+	MinimapIcon 2 Brown Star
+
+Show
+	BaseType "Uncut Skill Gem"
+	SetFontSize 50
+	SetTextColor 255 0 0 
+	SetBorderColor 0 255 0 
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+
+Show
+	BaseType "Uncut Support Gem"
+	SetFontSize 50
+	SetTextColor 255 0 0 
+	SetBorderColor 0 255 0 
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+
+Show
+	BaseType "Uncut Spirit Gem"
+	SetFontSize 50
+	SetTextColor 255 0 0 
+	SetBorderColor 0 255 0 
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+
+Show
+	BaseType "Inscribed Ultimatum"
+	SetFontSize 50
+	SetTextColor 255 0 0
+	SetBorderColor 0 255 0
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
+
+Show
+	BaseType "Charm"
+	SetFontSize 40
+	SetBackgroundColor 20 20 0 255
+
+Show
+	Class "Trial Coins"
+	SetFontSize 50
+	SetTextColor 255 0 0
+	SetBorderColor 0 255 0
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
