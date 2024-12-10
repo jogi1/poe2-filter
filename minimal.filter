@@ -78,3 +78,11 @@ Show
 	SetBorderColor 0 255 0
 	SetBackgroundColor 255 255 255
 	PlayAlertSound 6 300
+
+Show
+	Class "Socketable"
+	SetFontSize 50
+	SetTextColor 255 0 0
+	SetBorderColor 0 255 0
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 6 300
